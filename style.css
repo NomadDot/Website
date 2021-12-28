@@ -60,6 +60,7 @@ nav{
 }
 .coupleElements p {    
     margin-top: 5px;
+    margin-bottom: 0;
 }
 .coupleElements h2 {
     padding-top: 13px;
@@ -88,6 +89,10 @@ nav{
 
 hr {
     width: 700px;
+    border: 0;
+    height: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 .container {
@@ -111,13 +116,13 @@ hr {
 }
 
 .h1AboutMe {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 0;
 }
 
 .info_icon {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border: 1px solid white;
     border-radius: 50%;
     padding: 5px;
@@ -126,4 +131,20 @@ hr {
 .imgGitHub {
     width: 30px;
     height: 30px;
+}
+
+.tab {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.here {
+    text-decoration:none;
+    color: aqua;
+}
+.here:hover {
+    border-bottom: 3px solid white;
+    transition: 0.2s;
+    cursor: pointer;
+    
 }
