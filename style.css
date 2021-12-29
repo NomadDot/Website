@@ -137,6 +137,7 @@ hr {
 .tab {
     padding-left: 10px;
     padding-top: 10px;
+    line-height: 25px;
 }
 
 .here {
@@ -152,4 +153,35 @@ hr {
 
 .navItemNotIconStyle {
     margin-top: 10px;
+}
+
+.containerForItems {
+    display: flex;
+    margin: 70px auto;
+    padding-left: 70px;
+}
+
+.item {
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.description {
+    margin-top: 0px;
+    width: 250px;;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.h2Item {
+    text-decoration: none;
+    color: white;
 }
