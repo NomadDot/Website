@@ -158,6 +158,12 @@ hr {
   border-bottom: 1px solid white;
 }
 
+.workItem {
+  width: 230px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .description {
   margin-top: 0px;
   width: 250px;
